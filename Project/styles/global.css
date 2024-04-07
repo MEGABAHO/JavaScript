@@ -1,0 +1,43 @@
+* {
+  box-sizing: border-box;
+}
+html {
+  -moz-osx-font-smoothing: grayscale;
+  -webkit-font-smoothing: antialiased;
+  text-rendering: optimizeLegibility;
+}
+:root {
+  --color-primary: #6c38cc;
+  --color-bg: #352649;
+  --color-bg-ligth: #736783;
+  --color-bg-medium: #55436d;
+  --color-text: #fafafa;
+  --color-secondary: #e47ad5;
+  --color-link-hover: #afb2bf;
+  --color-stroke: #2e2d3d;
+  --color-footer: #101114;
+  --border-8: 8px;
+  --border-5: 5px;
+  --border-10: 10px;
+  --layout-width: calc(1220px - 48px);
+  --gradient: linear-gradient(
+    93.33deg,
+    #d77be6 9.26%,
+    #be63e6 42.32%,
+    #6c38cc 104.58%
+  );
+}
+body {
+  background-color: var(--color-bg, red);
+  margin: 0 auto;
+  font-family: "Fira Sans", sans-serif;
+  font-style: normal;
+  font-weight: 400;
+}
+/* .header_logo{
+  transform: scale(5%);
+  position: absolute;
+} */
+a {
+  text-decoration: none;
+}

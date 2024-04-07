@@ -1,0 +1,16 @@
+.cube {
+  animation: cube 5s infinite alternate ease-in-out;
+  animation-play-state: paused;
+}
+
+@keyframes cube {
+  0% {
+    transform: rotateX(-30deg) rotateY(-360deg);
+  }
+  50% {
+    transform: rotateX(0deg) rotateY(0deg);
+  }
+  100% {
+    transform: rotateX(-270deg) rotateY(360deg);
+  }
+}

@@ -1,0 +1,27 @@
+* {
+  box-sizing: border-box;
+}
+@font-face {
+  font-family: bandit;
+  src: url("../HTML/WORK_1/fonts/bandit/5472180.jpg");
+}
+body {
+  font-family: "bandit", sans-serif;
+  background: #1c1b21;
+  color: #fafafa;
+  font-size: 55px;
+  font-family: "Fira Sans", sans-serif;
+}
+.container {
+  border: 10px solid #6c38cc;
+  display: flex;
+  flex-wrap: wrap;
+  gap: 20px 20px;
+}
+.item {
+  background: #232228;
+  border: 1px solid #6c38cc;
+  text-align: center;
+  padding: 10px;
+  flex: 1 1 calc(100% / 3 - 20px * 2 / 3);
+}
