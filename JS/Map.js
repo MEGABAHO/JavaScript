@@ -15,3 +15,9 @@ const transactionInRub2 = TransactionInUsd
     })
 
 console.log(transactionInRub2);
+
+const prices = [[100,200],[120,100],[200,350]];
+const creditPrices = prices
+    .filter(element=>element[0]<element[1])
+    .map(element=>element[1]-element[0]);
+console.log(creditPrices);
